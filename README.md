@@ -17,6 +17,11 @@ To run the web app on a localhost web browser, download/clone the whole reposito
 # How to Use the Web App Predictor
 The usage is quite simple. Just input your relevant details as prompted in the form in the web app. Then, submit the filled details and the app will show the prediction.
 
+# Results
+## Developed app
+![app screenshot 1](statics/developed_app_1.png)
+![app screenshot 2](statics/developed_app_2.png)
+
 # Credits
 - [Heart Attack Analysis & Prediction Dataset](https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset?select=o2Saturation.csv)
 - [Markdown badges source 1](https://github.com/Ileriayo/markdown-badges)
