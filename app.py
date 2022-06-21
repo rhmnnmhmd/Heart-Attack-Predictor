@@ -165,7 +165,10 @@ with st.form("heart attack form"):
         y_list = ['lower chance of getting heart attack', 'higher chance of getting heart attack']
         y_result = y_list[y_pred]
 
-        st.write(f'You have a {y_result}')
+        probas = model.predict_proba(input_data)[0]
+        proba = probas[y_pred]
+    
+        st.write(f'You have a {y_result}. Probability of approximately {proba*100: .2f}\%')
 
 st.header("Test Case")
 
